@@ -1,0 +1,19 @@
+1. Inicio
+2. costo,d[0, n]
+3. articulos, i[0, n]
+4. preciounitario, d[0, n]
+5. descuento,d[0, n]
+6. porcentaje, i[0, n]
+7. porcentaje <-- 15
+8. Escribir "Ingrese la cantidad que se requiere del artículo"
+9. Leer articulos
+10. Escribir "Ingrese el precio unitario del articulo "
+11. Leer precioUnitario
+12. costo <-- preciounitario * articulos
+13. Si articulos > 50 entonces
+14.   descuento <-- (costo * porcentaje)/100
+15.   costo <--costo-descuento 
+16. Fin si
+17. Escribir "El costo total del pedido del articulo es de: " + costo
+18. Fin
+
